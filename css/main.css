@@ -93,9 +93,69 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+a {
+    color: #08c;
+    text-decoration: none;
+}
 
+a:hover {
+    color: #005580;
+    text-decoration: underline;
+}
 
+.topbar {
+    position: static;
+    top: 0;
+    color: #555;
+    line-height: 1.5em;
+    background-color: #fafafa;
+    background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+    background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #d4d4d4;
+}
 
+.topbar p {
+    margin: 0 1em;
+    font-size: 0.8em;
+}
+
+.topbar p .source {
+    float: right;
+}
+
+.container {
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+.contact {
+    position: absolute;
+    top: 1em;
+    right: 0.2em;
+}
+
+.row {
+    float: left;
+    min-height: 1px;
+}
+
+.content {
+    width: 780px;
+}
+
+.sidebar {
+    margin-left: 20px;
+    width: 140px;
+}
 
 
 
