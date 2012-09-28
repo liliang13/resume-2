@@ -93,8 +93,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html, html.zh {
+    font-family: muli, sans-serif;
+    background-image: url(../img/noise.png);
+    background-repeat: repeat;
+}
+
+html.en {
+    font-family: muli, Helvetica, Arial, sans-serif;
+}
+
 a {
-    color: #08c;
+    color: #5b8498;
     text-decoration: none;
 }
 
@@ -106,7 +116,7 @@ a:hover {
 .topbar {
     position: static;
     top: 0;
-    color: #555;
+    color: #999;
     line-height: 1.5em;
     background-color: #fafafa;
     background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
@@ -128,19 +138,31 @@ a:hover {
 }
 
 .container {
-    position: relative;
     width: 940px;
     margin: auto;
 }
 
 header {
-    margin-bottom: 2em;
+    display: table;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 4em;
+    font-weight: normal;
 }
 
 .contact {
-    position: absolute;
-    top: 1em;
-    right: 0.2em;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    right: 0;
+    text-align: right;
+    font-size: 0.9em;
+}
+
+.contact address {
+    font-style: normal;
 }
 
 .row {
@@ -152,20 +174,72 @@ header {
     width: 780px;
 }
 
+.content h2 {
+    border-bottom: 2px dotted #d4d4d4;
+}
+
+dl {
+    line-height: 1.8em;
+}
+
+dt {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+dt .time {
+    font-weight: normal;
+    color: #555;
+    margin-left: 2em;
+    font-size: small;
+}
+
+dd, section p {
+    margin: 0 0 1.8em 0;
+    color: #555;
+}
+
 .sidebar {
     margin-left: 20px;
     width: 140px;
+    text-align: right;
+}
+
+.sidebar dd {
+    margin-bottom: 2.8em;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li {
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+.link-caption {
+    font-weight: bold;
 }
 
 
+.lt-ie8 .topbar p .source {
+    float: none;
+    position: absolute;
+    top: 0;
+    right: 1em;
+}
 
+.lt-ie8 header h1 {
+    float: left;
+}
 
-
-
-
-
-
-
+.lt-ie8 header .contact {
+    top: 3em;
+}
 
 
 
