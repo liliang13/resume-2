@@ -113,7 +113,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.topbar {
+#topbar {
     position: static;
     top: 0;
     color: #999;
@@ -129,18 +129,18 @@ a:hover {
     border-bottom: 1px solid #d4d4d4;
 }
 
-.topbar p {
+#topbar p {
     margin: 0 1em;
     font-size: 0.8em;
 }
 
-.topbar p .source {
+#topbar p .source {
     float: right;
 }
 
-.topbar .active {
+#topbar .active {
     font-weight: bold;
-    color: #222;
+    color: #555;
 }
 
 .container {
@@ -232,7 +232,7 @@ dd, section p {
 }
 
 
-.lt-ie8 .topbar p .source {
+.lt-ie8 #topbar p .source {
     float: none;
     position: absolute;
     top: 0;
@@ -273,21 +273,21 @@ dd, section p {
     animation: loading 1.67s infinite;
 }
 
-#loadingbar_1 {
+#loadingbar-1 {
     -webkit-animation-delay: 0.33s;
     -moz-animation-delay: 0.33s;
     -o-animation-delay: 0.33s;
     -ms-animation-delay: 0.33s;
 }
 
-#loadingbar_2 {
+#loadingbar-2 {
     -webkit-animation-delay: 0.67s;
     -moz-animation-delay: 0.67s;
     -o-animation-delay: 0.67s;
     -ms-animation-delay: 0.67s;
 }
 
-#loadingbar_3{
+#loadingbar-3 {
     -webkit-animation-delay: 0.99s;
     -moz-animation-delay: 0.99s;
     -o-animation-delay: 0.99s;
@@ -508,7 +508,7 @@ dd, section p {
         page-break-after: avoid;
     }
 
-    .topbar, #loadingbar-wrapper {
+    #topbar, #loadingbar-wrapper {
         display: none;
     }
 
