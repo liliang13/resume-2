@@ -224,7 +224,7 @@ dd, section p {
 
 .sidebar ul li {
     font-size: 0.8em;
-    line-height: 2em;
+    line-height: 1.8em;
 }
 
 .link-caption {
@@ -456,11 +456,7 @@ dd, section p {
 
     a,
     a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
+        text-decoration: none;
     }
 
     abbr[title]:after {
@@ -510,5 +506,17 @@ dd, section p {
     h2,
     h3 {
         page-break-after: avoid;
+    }
+
+    .topbar, #loadingbar-wrapper {
+        display: none;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    dl, dl li {
+        line-height: 1.5em;
     }
 }
