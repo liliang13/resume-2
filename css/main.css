@@ -122,6 +122,7 @@ a:hover {
     background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
     background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -ms-linear-gradient(top, #ffffff, #f2f2f2);
     background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
     background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
     background-repeat: repeat-x;
@@ -241,6 +242,82 @@ dd, section p {
     top: 3em;
 }
 
+
+
+/* === Loading Bar === */
+
+#loadingbar-wrapper {
+    width: 150px;
+    margin: 150px auto;
+}
+
+.loadingbar {
+    background-color: #fff;
+    float: left;
+    height: 32px;
+    margin-left: 17px;
+    width: 32px;
+    opacity: 0.3;
+    -moz-border-radius: 21px;
+    -webkit-border-radius: 21px;
+    border-radius: 21px;
+    -webkit-animation: loading 1.67s infinite;
+    -moz-animation: loading 1.67s infinite;
+    -ms-animation: loading 1.67s infinite;
+    -o-animation: loading 1.67s infinite;
+    animation: loading 1.67s infinite;
+}
+
+#loadingbar_1 {
+    -webkit-animation-delay: 0.33s;
+    -moz-animation-delay: 0.33s;
+    -o-animation-delay: 0.33s;
+    -ms-animation-delay: 0.33s;
+}
+
+#loadingbar_2 {
+    -webkit-animation-delay: 0.67s;
+    -moz-animation-delay: 0.67s;
+    -o-animation-delay: 0.67s;
+    -ms-animation-delay: 0.67s;
+}
+
+#loadingbar_3{
+    -webkit-animation-delay: 0.99s;
+    -moz-animation-delay: 0.99s;
+    -o-animation-delay: 0.99s;
+    -ms-animation-delay: 0.99s;
+}
+
+@-webkit-keyframes loading {
+    0%   { opacity: 0.3; }
+    50%  { opacity: 1; background-color: #005580; }
+    100% { opacity:0.3; }
+}
+
+@-moz-keyframes loading {
+    0%   { opacity: 0.3; }
+    50%  { opacity: 1; background-color: #005580; }
+    100% { opacity: 0.3; }
+}
+
+@-ms-keyframes loading {
+    0%   { opacity: 0.3; }
+    50%  { opacity: 1; background-color: #005580; }
+    100% { opacity: 0.3; }
+}
+
+@-o-keyframes loading {
+    0%   { opacity: 0.3; }
+    50%  { opacity: 1; background-color: #005580; }
+    100% { opacity: 0.3; }
+}
+
+@keyframes loading {
+    0%   { opacity: 0.3; }
+    50%  { opacity: 1; background-color: #005580; }
+    100% { opacity: 0.3; }
+}
 
 
 /* ==========================================================================

@@ -25,6 +25,12 @@
             <p>My Résumé is available in <a href="">中文</a> and <a href="">English</a>. You may also <a href="">download as PDF</a>. <a class="source" href="https://github.com/clippit/resume" target="_blank">View source on github</a></p>
         </div>
 
+        <div id="loadingbar-wrapper">
+        <div id="loadingbar_1" class="loadingbar"></div>
+        <div id="loadingbar_2" class="loadingbar"></div>
+        <div id="loadingbar_3" class="loadingbar"></div>
+        </div>
+
         <div class="container" id="main">
         </div>
 
@@ -35,8 +41,8 @@
                 <figure class="contact">
                     <a href="">resume.dayanjia.com</a>
                     <address>
-                        {{tel}} <br />
-                        <a href="mailto:{{email}}">{{email}}</a> <br />
+                        {{tel}}<br />
+                        <a class="email" data-email="{{email}}"></a><br />
                         {{address}}
                     </address>
                 </figure>
@@ -57,7 +63,7 @@
                         </dd>
                     </dl>
                     {{/details}}
-                    {{&text}}
+                    {{^details}}<p>{{text}}</p>{{/details}}
                 </section>
             {{/content}}
             </div>
