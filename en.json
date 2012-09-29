@@ -1,0 +1,119 @@
+{
+	"name": "Zhang, Letian",
+	"tel": "(+86)152-9838-7335",
+	"email": "%7a%6c%74%68%6f%6f%72%61%79%40%67%6d%61%69%6c%2e%63%6f%6d",
+	"address": "Nanjing University, #22 HanKou Road, 210093",
+
+	"content":
+	[
+		{
+			"title": "Internship",
+			"details":
+			[
+				{
+					"subtitle": "eBay APD Shanghai",
+					"time": "2012",
+					"description": "所在团队的项目是一个公司内部分享数据分析报告和社交类网站，基于Joomla!平台进行深度定制开发。实习期间，除了随团队进行日常开发和维护外，还独立完成了一个监控和管理该系统Cron 脚本的Web项目。本人在实习期间深入了解了Joomla! Platform框架，并编写了一些代码贡献给社区，还熟悉了团队Scrum开发流程，加深了对大型Web系统的理解和掌控。"
+				}
+			]
+		},
+		{
+			"title": "Personal Projects",
+			"details":
+			[
+				{
+					"subtitle": "南京大学体育刷卡查询",
+					"time": "2010年，二年级",
+					"description": "“体育锻炼刷卡”是一项按次数考核的指标。本人意外发现并利用了体育部门Web办公系统的漏洞，制作了该查询网站，后端使用PHP，前端使用jQuery和CSS3。网站上线后每学期受理约15万次查询请求，一学期UV达25万，几乎每个学生都使用过。",
+					"link":
+					{
+						"text": "github.com/clippit/NJU-gym-checker",
+						"href": "https://github.com/clippit/NJU-gym-checker"
+					}
+				},
+				{
+					"subtitle": "南京大学校园网连接助手",
+					"time": "2012年，四年级",
+					"description": "校园网内上互联网需要打某个网站输入用户名、密码、验证码进行鉴权，过程极其繁琐。本人使用wxPython编写了一个跨平台桌面程序，能够自动解决验证码，进行登录操作，免除用户烦恼。其公测版小范围发布一周，每天通过该程序有700余次登录。",
+					"link":
+					{
+						"text": "github.com/clippit/p-NJU",
+						"href": "https://github.com/clippit/p-NJU"
+					}
+				},
+				{
+					"subtitle": "南京大学手机图书馆查询",
+					"time": "2009年，一年级",
+					"description": "因无法随时随地搜索馆藏，使用PHP开发了手机Web版的馆藏查询系统。上线后最高平均每月有2000余次访问量。后因图书馆推出官方手机Web版和客户端，停止维护。"
+				}
+			]
+		},
+		{
+			"title": "Other Projects",
+			"details":
+			[
+				{
+					"subtitle": "南京大学软件学院十周年院庆网站",
+					"time": "2012年，三年级",
+					"description": "团队项目，本人承担了大部分开发工作，其他成员负责沟通和网站内容。网站采用jekyll生成静态页面，前端使用了HTML5、CSS3和jQuery技术。",
+					"link":
+					{
+						"text": "github.com/clippit/10th-anniversary",
+						"href": "https://github.com/clippit/10th-anniversary"
+					}
+				},
+				{
+					"subtitle": "SweetNS社交聚合网站",
+					"time": "2009年，一年级",
+					"description": "团队项目，本人担任团队领导角色，并主要负责后台API操作的开发。该项目获得了2009-2010年软件学院第8届创新项目大赛“最佳新人奖”。"
+				},
+				{
+					"subtitle": "在线英语教学网",
+					"time": "2011年，三年级",
+					"description": "外包项目，团队开发，本人主要负责后台开发和部分前端美工。使用PHP和Yii Framework。开发本项目时，本人对Yii Framework进行了较深入的学习理解，阅读了部分源代码。"
+				}
+			]
+		},
+		{
+			"title": "Education",
+			"text": "南京大学软件学院本科，Linux专业方向，2009-2013，GPA: 3.9/5，大学英语六级"
+		}
+	],
+
+	"highlights":
+	[
+		{
+			"title": "编程语言",
+			"list": ["Java", "PHP", "JavaScript", "Python", "C"]
+		},
+		{
+			"title": "框架和平台",
+			"list": ["Flask", "Django", "Octopress", "Yii Framework", "Wordpress", "Joomla!"]
+		},
+		{
+			"title": "工具",
+			"list": ["Git", "MySQL", "MongoDB", "Photoshop", "Eclipse", "Vim"]
+		},
+		{
+			"title": "操作系统",
+			"list": ["Windows", "Arch Linux", "CentOS"]
+		},
+		{
+			"title": "在校活动",
+			"list": ["小百合工作室技术组长", "小百合BBS版主"]
+		},
+		{
+			"title": "特点",
+			"list": ["崇尚开源", "保持创造力", "不断适应变化", "希望创造有趣的产品", "用编程改善生活", "学习能力不错", "精益求精"]
+		},
+		{
+			"title": "链接",
+			"list":
+			[
+				"<a href=\"http://github.com/clippit\" target=\"_blank\"><span class=\"link-caption\">github</span>.com/clippit</a>",
+				"<a href=\"http://blog.dayanjia.com\" target=\"_blank\"><span class=\"link-caption\">blog</span>.dayanjia.com</a>",
+				"<a href=\"http://twitter.com/clipppit\" target=\"_blank\"><span class=\"link-caption\">twitter</span>.com/clipppit</a>"
+			]
+		}
+	]
+}
