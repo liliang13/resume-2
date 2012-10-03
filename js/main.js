@@ -55,11 +55,22 @@
                 // render template
                 var result = $.mustache(settings.source, data);
                 container.html(result);
-                // decode email
-                $(".email").each(function(i, e) {
+                // decode tel and email
+                $(".encoded").each(function(i, e) {
                     var $e = $(e),
-                        email = decodeURIComponent($e.data('email'));
-                    $e.attr("href", "mailto:" + email).text(email);
+                        decoded = decodeURIComponent($e.data('encoded'));
+                    if ($e.hasClass('email')) {
+                        $e.after(
+                            $('<a>')
+                            .attr({
+                                href: 'mailto:' + decoded
+                            })
+                            .text(decoded)
+                        );
+                    } else {
+                        $e.after(decoded);
+                    }
+                    $e.remove();
                 });
 
                 // show result
