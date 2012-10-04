@@ -1,6 +1,6 @@
 {
 	"document_title": "Letian Zhang's Résumé",
-	"language_tip": "The page is available in {0} and {1}. You may also {2}.",
+	"language_tip": "The page is available in {0} and {1}. You can also {2}.",
 	"download_pdf": "download as PDF",
 	"view_source": "View source on github",
 
@@ -18,18 +18,18 @@
 				{
 					"subtitle": "eBay APD Shanghai",
 					"time": "2012",
-					"description": "所在团队的项目是一个公司内部分享数据分析报告和社交类网站，基于Joomla!平台进行深度定制开发。实习期间，除了随团队进行日常开发和维护外，还独立完成了一个监控和管理该系统Cron 脚本的Web项目。本人在实习期间深入了解了Joomla! Platform框架，并编写了一些代码贡献给社区，还熟悉了团队Scrum开发流程，加深了对大型Web系统的理解和掌控。"
+					"description": "The team is building a internal social website about sharing data analysis reports, which has much customization based on Joomla! CMS. During the internship, I created a web app for monitoring system cron jobs in addition to daily development and maintenance. I also have learned Joomla! Platform in deep, made some contributions to Joomla! community, got familiar with Scrum teamwork, and improved understanding of large-scale web system."
 				}
 			]
 		},
 		{
-			"title": "Personal Projects",
+			"title": "Personal Insights",
 			"details":
 			[
 				{
-					"subtitle": "南京大学体育刷卡查询",
-					"time": "2010年，二年级",
-					"description": "“体育锻炼刷卡”是一项按次数考核的指标。本人意外发现并利用了体育部门Web办公系统的漏洞，制作了该查询网站，后端使用PHP，前端使用jQuery和CSS3。网站上线后每学期受理约15万次查询请求，一学期UV达25万，几乎每个学生都使用过。",
+					"subtitle": "Querying website of \"P.E. Clock In\"",
+					"time": "2010, Sophomore",
+					"description": "\"P.E. Clock In\" is a factor to students' P.E. course scores. I hacked into OA system of P.E. department and created the web app for querying every student's own counts, which uses PHP as back-end and jQuery as front-end. There were about 150,000 query requests and 250,000 UV per semester, that means almost every student had used this web app.",
 					"link":
 					{
 						"text": "github.com/clippit/NJU-gym-checker",
@@ -37,9 +37,9 @@
 					}
 				},
 				{
-					"subtitle": "南京大学校园网连接助手",
-					"time": "2012年，四年级",
-					"description": "校园网内上互联网需要打某个网站输入用户名、密码、验证码进行鉴权，过程极其繁琐。本人使用wxPython编写了一个跨平台桌面程序，能够自动解决验证码，进行登录操作，免除用户烦恼。其公测版小范围发布一周，每天通过该程序有700余次登录。",
+					"subtitle": "Internet Dial-in Utility in Campus",
+					"time": "2012, Senior",
+					"description": "Every student in campus must be authenticated by user name, password and captcha before connecting to the Internet. To free my hands, I wrote a daemon utility that can substitute for manual login as well as solving the captcha. One week after the beta version, there are 700 logins using my tool every day.",
 					"link":
 					{
 						"text": "github.com/clippit/p-NJU",
@@ -47,9 +47,9 @@
 					}
 				},
 				{
-					"subtitle": "南京大学手机图书馆查询",
-					"time": "2009年，一年级",
-					"description": "因无法随时随地搜索馆藏，使用PHP开发了手机Web版的馆藏查询系统。上线后最高平均每月有2000余次访问量。后因图书馆推出官方手机Web版和客户端，停止维护。"
+					"subtitle": "Mobile OPAC Web App in Campus",
+					"time": "2009, Freshman",
+					"description": "Because I could not search the library at anytime and from anywhere, I developed the mobile version of OPAC in PHP and released to public. There were over 2000 search requests per month at that time."
 				}
 			]
 		},
@@ -58,9 +58,9 @@
 			"details":
 			[
 				{
-					"subtitle": "南京大学软件学院十周年院庆网站",
-					"time": "2012年，三年级",
-					"description": "团队项目，本人承担了大部分开发工作，其他成员负责沟通和网站内容。网站采用jekyll生成静态页面，前端使用了HTML5、CSS3和jQuery技术。",
+					"subtitle": "10th Anniversary Celebration Website of Software Institute, Nanjing University",
+					"time": "2012, Junior",
+					"description": "Majority of work was focused on front-end with jQuery. The website was built based on HTML5 Boilerplate and used jekyll for generating static website.",
 					"link":
 					{
 						"text": "github.com/clippit/10th-anniversary",
@@ -68,51 +68,46 @@
 					}
 				},
 				{
-					"subtitle": "SweetNS社交聚合网站",
-					"time": "2009年，一年级",
-					"description": "团队项目，本人担任团队领导角色，并主要负责后台API操作的开发。该项目获得了2009-2010年软件学院第8届创新项目大赛“最佳新人奖”。"
-				},
-				{
-					"subtitle": "在线英语教学网",
-					"time": "2011年，三年级",
-					"description": "外包项目，团队开发，本人主要负责后台开发和部分前端美工。使用PHP和Yii Framework。开发本项目时，本人对Yii Framework进行了较深入的学习理解，阅读了部分源代码。"
+					"subtitle": "\"SweetNS\" Social Mashup Web App",
+					"time": "2009, Freshman",
+					"description": "I was the leader of the team and responsible for API consuming。The project won the \"Best Freshman\" award of 8th Innovation Competition in my department."
 				}
 			]
 		},
 		{
 			"title": "Education",
-			"text": "南京大学软件学院本科，Linux专业方向，2009-2013，GPA: 3.9/5，大学英语六级"
+			"text": "Bachelor of Software Engineering in Nanjing University, Linux professional emphasis，2009-2013，GPA: 3.9/5.0，CET 6"
 		}
 	],
 
 	"highlights":
 	[
 		{
-			"title": "编程语言",
+			"title": "Languages",
 			"list": ["Java", "PHP", "JavaScript", "Python", "C"]
 		},
 		{
-			"title": "框架和平台",
+			"title": "Frameworks & Platforms",
 			"list": ["Flask", "Django", "Octopress", "Yii Framework", "Wordpress", "Joomla!"]
 		},
 		{
-			"title": "工具",
+			"title": "Softwares & Tools",
 			"list": ["Git", "MySQL", "MongoDB", "Photoshop", "Eclipse", "Vim"]
 		},
 		{
-			"title": "操作系统",
+			"title": "OS",
 			"list": ["Windows", "Arch Linux", "CentOS"]
 		},
 		{
-			"title": "在校活动",
-			"list": ["小百合工作室技术组长", "小百合BBS版主"]
+			"title": "School Life",
+			"list": ["Technical Leader at Lily Studio", "Moderator at Lily BBS"]
 		},
 		{
-			"title": "特点",
-			"list": ["崇尚开源", "保持创造力", "不断适应变化", "希望创造有趣的产品", "用编程改善生活", "学习能力不错", "精益求精"]
+			"title": "Features",
+			"list": ["Keep creativity", "Adapt to changes constantly", "Hack for interesting products", "Enthusiasm about open source", "Improve lives by programming", "Pay great attention to details", "Quick learner"]
 		},
 		{
-			"title": "链接",
+			"title": "Links",
 			"list":
 			[
 				"<a href=\"http://github.com/clippit\" target=\"_blank\"><span class=\"link-caption\">github</span>.com/clippit</a>",

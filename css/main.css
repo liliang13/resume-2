@@ -93,13 +93,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-html, html.zh {
+html, html.resume-zh {
     font-family: muli, sans-serif;
     background-image: url(../img/noise.png);
     background-repeat: repeat;
 }
 
-html.en {
+html.resume-en {
     font-family: muli, Helvetica, Arial, sans-serif;
 }
 
@@ -180,6 +180,10 @@ header h1 {
     width: 780px;
 }
 
+.resume-en .content {
+    width: 700px;
+}
+
 .content h2 {
     border-bottom: 2px dotted #d4d4d4;
 }
@@ -210,6 +214,10 @@ dd, section p {
     margin-left: 20px;
     width: 140px;
     text-align: right;
+}
+
+.resume-en .sidebar {
+    width: 220px;
 }
 
 .sidebar dd {

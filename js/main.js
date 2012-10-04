@@ -77,6 +77,7 @@
                 settings.loadingBar.hide();
                 container.show();
                 $('#topbar a.select').removeClass('active').filter('.select-' + language).addClass('active');
+                $('html').removeClass('resume-zh resume-en').addClass('resume-' + language);
             });
         };
 
