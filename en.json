@@ -18,7 +18,7 @@
 				{
 					"subtitle": "eBay APD Shanghai",
 					"time": "2012",
-					"description": "The team is building a internal social website about sharing data analysis reports, which has much customization based on Joomla! CMS. During the internship, I created a web app for monitoring system cron jobs in addition to daily development and maintenance. I also have learned Joomla! Platform in deep, made some contributions to Joomla! community, got familiar with Scrum teamwork, and improved understanding of large-scale web system."
+					"description": "The team is building an internal social website about sharing data analysis reports, which has much customization based on Joomla! CMS. During the internship, I created a web app for monitoring system cron jobs in addition to daily development and maintenance. I also have learned Joomla! Platform in deep, made some contributions to Joomla! community, got familiar with Scrum teamwork, and improved understanding of large-scale web system."
 				}
 			]
 		},
@@ -27,9 +27,9 @@
 			"details":
 			[
 				{
-					"subtitle": "Querying website of \"P.E. Clock In\"",
+					"subtitle": "Querying website of “P.E. Clock In”",
 					"time": "2010, Sophomore",
-					"description": "\"P.E. Clock In\" is a factor to students' P.E. course scores. I hacked into OA system of P.E. department and created the web app for querying every student's own counts, which uses PHP as back-end and jQuery as front-end. There were about 150,000 query requests and 250,000 UV per semester, that means almost every student had used this web app.",
+					"description": "“P.E. Clock In” is a factor to students' P.E. course scores. I hacked into OA system of P.E. department and created the web app for querying every student's own counts, which uses PHP as back-end and jQuery as front-end. There were about 150,000 query requests and 250,000 UV per semester, which means almost every student had used this web app.",
 					"link":
 					{
 						"text": "github.com/clippit/NJU-gym-checker",
@@ -39,7 +39,7 @@
 				{
 					"subtitle": "Internet Dial-in Utility in Campus",
 					"time": "2012, Senior",
-					"description": "Every student in campus must be authenticated by user name, password and captcha before connecting to the Internet. To free my hands, I wrote a daemon utility that can substitute for manual login as well as solving the captcha. One week after the beta version, there are 700 logins using my tool every day.",
+					"description": "Every student in campus must be authenticated by user name, password and captcha before connecting to the Internet. To free my hands, I wrote a daemon utility that can substitute for manual login as well as solving the captcha. It’s completed by wxPython so the cross-platform compatibility is good. One week after the beta version, there are 700 logins using my tool every day.",
 					"link":
 					{
 						"text": "github.com/clippit/p-NJU",
@@ -49,7 +49,7 @@
 				{
 					"subtitle": "Mobile OPAC Web App in Campus",
 					"time": "2009, Freshman",
-					"description": "Because I could not search the library at anytime and from anywhere, I developed the mobile version of OPAC in PHP and released to public. There were over 2000 search requests per month at that time."
+					"description": "Because I could not search the library at any time and from anywhere, I developed the mobile version of OPAC in PHP and released to public. There were over 2000 search requests per month at that time."
 				}
 			]
 		},
@@ -68,9 +68,9 @@
 					}
 				},
 				{
-					"subtitle": "\"SweetNS\" Social Mashup Web App",
+					"subtitle": "“SweetNS” Social Mashup Web App",
 					"time": "2009, Freshman",
-					"description": "I was the leader of the team and responsible for API consuming。The project won the \"Best Freshman\" award of 8th Innovation Competition in my department."
+					"description": "I was the leader of the team and responsible for API consuming。The project won the “Best Freshman” award of 8th Innovation Competition in my department."
 				}
 			]
 		},
