@@ -10,20 +10,25 @@
     };
 
     $.fn.Resume = function(options) {
-
-        var getLanguageFromHash = function() {
-            var hash = window.location.hash;
-            if (hash && $.inArray(hash, ['#zh', '#en']) >= 0)
-                return hash.substr(1);
+        var languageAvailable = function(lang) {
+            if (lang && $.inArray(lang, ['zh', 'en']) >= 0)
+                return lang;
             else
-                return 'zh';
+                return null;
+        };
+
+        var getLanguage = function() {
+            var hash = window.location.hash.substr(1);
+                browserLanguage = (window.navigator.userLanguage || window.navigator.language).substr(0, 2);
+            return languageAvailable(hash) || languageAvailable(browserLanguage) || 'zh';
         };
 
         var settings = $.extend({
             'source'          : $("#template").html(),
             'topbar'          : $("#topbar"),
             'loadingBar'      : $("#loadingbar-wrapper"),
-            'defaultLanguage' : getLanguageFromHash()
+            'defaultLanguage' : getLanguage(),
+            'gaTrack'         : true
         }, options),
             container = this;
 
@@ -78,12 +83,16 @@
                 container.show();
                 $('#topbar a.select').removeClass('active').filter('.select-' + language).addClass('active');
                 $('html').removeClass('resume-zh resume-en').addClass('resume-' + language);
+
+                // track
+                if (settings.gaTrack)
+                    _gaq.push(['_trackEvent', 'language', language]);
             });
         };
 
         if (Modernizr.hashchange) {
             $(window).on('hashchange', function() {
-                loadResume(getLanguageFromHash());
+                loadResume(getLanguage());
             });
         }
 
