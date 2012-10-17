@@ -81,7 +81,7 @@
 		},
 		{
 			"title": "教育",
-			"text": "南京大学软件学院本科，Linux专业方向，2009-2013，GPA: 3.9/5.0，大学英语六级"
+			"text": "南京大学软件学院本科，Linux专业方向，2009-2013，GPA: 3.94/5.0，大学英语六级"
 		}
 	],
 
@@ -89,11 +89,11 @@
 	[
 		{
 			"title": "编程语言",
-			"list": ["Java", "PHP", "JavaScript", "Python", "C"]
+			"list": ["PHP", "JavaScript", "Python", "Java", "C"]
 		},
 		{
 			"title": "框架和平台",
-			"list": ["Flask", "Django", "Octopress", "Yii Framework", "Wordpress", "Joomla!"]
+			"list": ["Flask", "Django", "Octopress", "Yii Framework", "Wordpress", "Joomla!", "jQuery"]
 		},
 		{
 			"title": "软件和工具",

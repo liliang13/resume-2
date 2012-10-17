@@ -18,18 +18,18 @@
 				{
 					"subtitle": "eBay APD Shanghai",
 					"time": "2012",
-					"description": "The team is building an internal social website about sharing data analysis reports, which has much customization based on Joomla! CMS. During the internship, I created a web app for monitoring system cron jobs in addition to daily development and maintenance. I also have learned Joomla! Platform in deep, made some contributions to Joomla! community, got familiar with Scrum teamwork, and improved understanding of large-scale web system."
+					"description": "Work on intranet solutions about sharing data analysis reports, which is based on Joomla! CMS with the addition of much customization. During the internship, I created a web app for monitoring system CRON jobs besides daily development and maintenance. I also have learned Joomla! Platform in deep, wrote some codes for contributions to Joomla! community, got familiar with Scrum teamwork, and improved understanding of large-scale web system."
 				}
 			]
 		},
 		{
-			"title": "Personal Insights",
+			"title": "Independent Projects",
 			"details":
 			[
 				{
 					"subtitle": "Querying website of “P.E. Clock In”",
 					"time": "2010, Sophomore",
-					"description": "“P.E. Clock In” is a factor to students' P.E. course scores. I hacked into OA system of P.E. department and created the web app for querying every student's own counts, which uses PHP as back-end and jQuery as front-end. There were about 150,000 query requests and 250,000 UV per semester, which means almost every student had used this web app.",
+					"description": "“P.E. Clock In” is a factor to students' P.E. course scores. I hacked into OA system of P.E. department by chance and created the web app for querying every student's own counts, which uses PHP as back-end and jQuery as front-end. There were about 150,000 query requests and 250,000 UV per semester, which means almost every student had used this web app.",
 					"link":
 					{
 						"text": "github.com/clippit/NJU-gym-checker",
@@ -39,7 +39,7 @@
 				{
 					"subtitle": "Internet Dial-in Utility in Campus",
 					"time": "2012, Senior",
-					"description": "Every student in campus must be authenticated by user name, password and captcha before connecting to the Internet. To free my hands, I wrote a daemon utility that can substitute for manual login as well as solving the captcha. It’s completed by wxPython so the cross-platform compatibility is good. One week after the beta version, there are 700 logins using my tool every day.",
+					"description": "Every student in campus must be authenticated by user name, password and CAPTCHA before connecting to the Internet. To free my hands, I wrote a daemon utility that can substitute for manual login as well as solving the CAPTCHA image. It’s completed with wxPython so the cross-platform compatibility is good. One week after the beta version released, there are 700 logins using my tool every day.",
 					"link":
 					{
 						"text": "github.com/clippit/p-NJU",
@@ -60,7 +60,7 @@
 				{
 					"subtitle": "10th Anniversary Celebration Website of Software Institute, Nanjing University",
 					"time": "2012, Junior",
-					"description": "Majority of work was focused on front-end with jQuery. The website was built based on HTML5 Boilerplate and used jekyll for generating static website.",
+					"description": "Majority of my work was focused on front-end with jQuery. The website was built based on HTML5 Boilerplate and used jekyll for generating static website.",
 					"link":
 					{
 						"text": "github.com/clippit/10th-anniversary",
@@ -70,13 +70,13 @@
 				{
 					"subtitle": "“SweetNS” Social Mashup Web App",
 					"time": "2009, Freshman",
-					"description": "I was the leader of the team and responsible for API consuming。The project won the “Best Freshman” award of 8th Innovation Competition in my department."
+					"description": "I was the leader of the team and responsible for API consuming development。The project won the “Best Freshman” award of 8th Innovation Competition in my department."
 				}
 			]
 		},
 		{
 			"title": "Education",
-			"text": "Bachelor of Software Engineering in Nanjing University, Linux professional emphasis，2009-2013，GPA: 3.9/5.0，CET 6"
+			"text": "Bachelor of Software Engineering in Nanjing University, Linux professional emphasis，2009-2013，GPA: 3.94/5.0，CET 6"
 		}
 	],
 
@@ -84,11 +84,11 @@
 	[
 		{
 			"title": "Languages",
-			"list": ["Java", "PHP", "JavaScript", "Python", "C"]
+			"list": ["PHP", "JavaScript", "Python", "Java", "C"]
 		},
 		{
 			"title": "Frameworks & Platforms",
-			"list": ["Flask", "Django", "Octopress", "Yii Framework", "Wordpress", "Joomla!"]
+			"list": ["Flask", "Django", "Octopress", "Yii Framework", "Wordpress", "Joomla!", "jQuery"]
 		},
 		{
 			"title": "Softwares & Tools",
