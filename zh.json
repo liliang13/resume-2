@@ -18,7 +18,7 @@
 				{
 					"subtitle": "eBay APD 上海",
 					"time": "2012年",
-					"description": "所在团队的项目是一个公司内部分享数据分析报告的社交类网站，基于Joomla!平台进行深度定制开发。实习期间的主要工作是随团队进行日常开发和维护，此外还独立完成了一个监控和管理该系统Cron定时脚本的Web项目。本人在实习期间深入学习了Joomla! Platform框架，并编写了一些代码贡献给开源社区，还熟悉了团队Scrum开发流程，加深了对大型Web系统的理解和掌控。"
+					"description": "所在团队的项目是一个公司内部分享数据分析报告的社交类网站，基于Joomla!平台进行深度定制开发。实习期间的主要工作是随团队进行日常开发和维护，此外还独立完成了一个监控和管理该系统Cron定时脚本的Web项目。本人在实习期间深入学习了Joomla! Platform框架，并编写了一些代码贡献给开源社区，还熟悉了团队Scrum开发流程，加深了对大型Web系统的理解。"
 				}
 			]
 		},
@@ -31,10 +31,16 @@
 					"time": "2010年，二年级",
 					"description": "“体育锻炼刷卡”是一项按次数考核的指标。本人发现并利用了体育部门Web办公系统的安全漏洞，制作了该查询网站方便同学，前端（jQuery）和后端（PHP）均一人完成。网站上线后每学期受理约15万次查询请求，一学期UV达25万，几乎每个学生都使用过。",
 					"link":
-					{
-						"text": "github.com/clippit/NJU-gym-checker",
-						"href": "https://github.com/clippit/NJU-gym-checker"
-					}
+					[
+						{
+							"text": "访问网站",
+							"href": "http://gym.dayanjia.com"
+						},
+						{
+							"text": "GitHub上的源码",
+							"href": "https://github.com/clippit/NJU-gym-checker"
+						}
+					]
 				},
 				{
 					"subtitle": "南京大学校园网连接助手",
@@ -42,7 +48,7 @@
 					"description": "学校里上互联网需要在某个网站输入用户名、密码、验证码进行鉴权，过程极其繁琐。本人使用wxPython编写了一个跨平台桌面程序，能够驻留系统后台，代替用户自动登录，还可以自动解决验证码。其公测版小范围发布一周，每天通过该程序有700余次登录。",
 					"link":
 					{
-						"text": "github.com/clippit/p-NJU",
+						"text": "GitHub上的源码",
 						"href": "https://github.com/clippit/p-NJU"
 					}
 				},
@@ -60,12 +66,18 @@
 				{
 					"subtitle": "南京大学软件学院十周年院庆网站",
 					"time": "2012年，三年级",
-					"description": "该项目以前端开发工作为主。网站基于HTML5 Boilerplate，使用jekyll从源码生成静态整站，前端交互运用了jQuery。",
+					"description": "该项目以前端开发工作为主。网站基于HTML5 Boilerplate，使用jekyll从源码生成静态整站。使用了若干jQuery插件，并做了一些改写以适应自己的需要。",
 					"link":
-					{
-						"text": "github.com/clippit/10th-anniversary",
-						"href": "https://github.com/clippit/10th-anniversary"
-					}
+					[
+						{
+							"text": "访问网站",
+							"href": "http://218.94.159.105/"
+						},
+						{
+							"text": "GitHub上的源码",
+							"href": "https://github.com/clippit/10th-anniversary"
+						}
+					]
 				},
 				{
 					"subtitle": "SweetNS社交聚合网站",

@@ -31,18 +31,24 @@
 					"time": "2010, Sophomore",
 					"description": "“P.E. Clock In” is a factor to students' P.E. course scores. I hacked into OA system of P.E. department by chance and created the web app for querying every student's own counts, which uses PHP as back-end and jQuery as front-end. There were about 150,000 query requests and 250,000 UV per semester, which means almost every student had used this web app.",
 					"link":
-					{
-						"text": "github.com/clippit/NJU-gym-checker",
-						"href": "https://github.com/clippit/NJU-gym-checker"
-					}
+					[
+						{
+							"text": "Visit Website",
+							"href": "http://gym.dayanjia.com"
+						},
+						{
+							"text": "View Source on GitHub",
+							"href": "https://github.com/clippit/NJU-gym-checker"
+						}
+					]
 				},
 				{
 					"subtitle": "Internet Dial-in Utility in Campus",
 					"time": "2012, Senior",
-					"description": "Every student in campus must be authenticated by user name, password and CAPTCHA before connecting to the Internet. To free my hands, I wrote a daemon utility that can substitute for manual login as well as solving the CAPTCHA image. It’s completed with wxPython so the cross-platform compatibility is good. One week after the beta version released, there are 700 logins using my tool every day.",
+					"description": "Every student in campus must be authenticated by user name, password and CAPTCHA before connecting to the Internet. I designed and implemented a daemon utility that can substitute for manual login as well as solving the CAPTCHA image. It’s completed with wxPython so the cross-platform compatibility is good. One week after the beta version released, there are 700 logins using my tool every day.",
 					"link":
 					{
-						"text": "github.com/clippit/p-NJU",
+						"text": "View Source on GitHub",
 						"href": "https://github.com/clippit/p-NJU"
 					}
 				},
@@ -62,10 +68,16 @@
 					"time": "2012, Junior",
 					"description": "Majority of my work was focused on front-end with jQuery. The website was built based on HTML5 Boilerplate and used jekyll for generating static website.",
 					"link":
-					{
-						"text": "github.com/clippit/10th-anniversary",
-						"href": "https://github.com/clippit/10th-anniversary"
-					}
+					[
+						{
+							"text": "Visit Website",
+							"href": "http://218.94.159.105/"
+						},
+						{
+							"text": "View Source on GitHub",
+							"href": "https://github.com/clippit/10th-anniversary"
+						}
+					]
 				},
 				{
 					"subtitle": "“SweetNS” Social Mashup Web App",
